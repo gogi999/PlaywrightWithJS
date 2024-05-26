@@ -8,12 +8,12 @@ test('Locators', async ({ page }) => {
     // await page.click('id=login2'); // -> same functionality as line above
 
     // Provide username - CSS
-    await page.locator('#loginusername').fill('frcko36')
+    await page.locator('#loginusername').fill(process.env.USERNAME)
     // await page.fill('#loginusername', 'johny36'); // -> same functionality as line above
     // await page.type('#loginusername', 'johny36'); // -> same functionality as lines above
 
     // Provide password
-    await page.fill('input[id="loginpassword"]', 'H1D3moglaze;');
+    await page.fill('input[id="loginpassword"]', process.env.PASSWORD);
 
     // Click on login button - XPath
     // await page.click('//button[normalize-space()="Log in"]');
