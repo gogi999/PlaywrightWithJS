@@ -41,7 +41,8 @@ import { test, expect } from '@playwright/test';
 
 // Slow
 test('test7', async ({ page }) => {
-    test.slow()
+    // test.slow()
+    test.setTimeout(5000)
     console.log('This is test7...')
     await page.goto('https://www.demoblaze.com/index.html')
 })
