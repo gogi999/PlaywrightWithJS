@@ -1,7 +1,21 @@
 const { test, expect } = require('@playwright/test');
 
-test('How to tag tests', async ({ page }) => {
-    // Open app url
-    await page.goto('https://demoblaze.com/index.html#')
-    
+test('test1@sanity', async ({ page }) => {
+    console.log('This is test1...')
+})
+
+test('test2@sanity', async ({ page }) => {
+    console.log('This is test2...')
+})
+
+test('test3@reg', async ({ page }) => {
+    console.log('This is test3...')
+})
+
+test('test4@reg', async ({ page }) => {
+    console.log('This is test4...')
+})
+
+test('test5@sanity@reg', async ({ page }) => {
+    console.log('This is test5...')
 })
