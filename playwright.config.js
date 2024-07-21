@@ -32,7 +32,7 @@ module.exports = defineConfig({
     screenshot: 'only-on-failure',
     video: 'retain-on-failure'
   },
-
+  // timeout: 2000,
   /* Configure projects for major browsers */
   projects: [
     {
