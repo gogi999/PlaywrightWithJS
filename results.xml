@@ -1,0 +1,71 @@
+<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="46.752821000000004">
+<testsuite name="Reporters.spec.js" timestamp="2024-07-24T09:35:06.104Z" hostname="chromium" tests="3" failures="0" skipped="0" time="22.04" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="5.26">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test1-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="6.606">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test2-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="10.174">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test3-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2024-07-24T09:35:06.104Z" hostname="firefox" tests="3" failures="0" skipped="0" time="21.275" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="6.697">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test1-firefox/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="7.7">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test2-firefox/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="6.878">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test3-firefox/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2024-07-24T09:35:06.104Z" hostname="webkit" tests="3" failures="0" skipped="0" time="21.403" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="7.208">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test1-webkit/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="7.168">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test2-webkit/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="7.027">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-Test3-webkit/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
