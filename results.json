@@ -34,6 +34,12 @@
         {
           "outputFile": "results.xml"
         }
+      ],
+      [
+        "/home/gogi999/QA/PlaywrightWithJS/node_modules/allure-playwright/dist/cjs/index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
       ]
     ],
     "reportSlowTests": {
@@ -87,7 +93,7 @@
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.44.1",
+    "version": "1.45.3",
     "workers": 2,
     "webServer": null
   },
@@ -113,12 +119,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5260,
+                  "duration": 4702,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:06.573Z",
+                  "startTime": "2024-07-24T10:08:06.923Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -151,12 +157,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 6606,
+                  "duration": 6007,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:12.293Z",
+                  "startTime": "2024-07-24T10:08:11.956Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -189,12 +195,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10174,
+                  "duration": 5129,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:18.999Z",
+                  "startTime": "2024-07-24T10:08:18.029Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -227,12 +233,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 6697,
+                  "duration": 6823,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:06.544Z",
+                  "startTime": "2024-07-24T10:08:06.908Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -265,12 +271,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 7700,
+                  "duration": 6052,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:14.509Z",
+                  "startTime": "2024-07-24T10:08:14.654Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -303,12 +309,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 6878,
+                  "duration": 5085,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:22.337Z",
+                  "startTime": "2024-07-24T10:08:20.907Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -341,12 +347,12 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 7208,
+                  "duration": 5968,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:30.190Z",
+                  "startTime": "2024-07-24T10:08:23.790Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -379,12 +385,12 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 7168,
+                  "duration": 7067,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:38.090Z",
+                  "startTime": "2024-07-24T10:08:30.280Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -417,12 +423,12 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 7027,
+                  "duration": 6332,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T09:35:45.373Z",
+                  "startTime": "2024-07-24T10:08:37.422Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -445,8 +451,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-07-24T09:35:06.072Z",
-    "duration": 46752.821,
+    "startTime": "2024-07-24T10:08:06.485Z",
+    "duration": 37459.169,
     "expected": 9,
     "skipped": 0,
     "unexpected": 0,

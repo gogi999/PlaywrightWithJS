@@ -28,7 +28,8 @@ module.exports = defineConfig({
     ['list'],
     ['html'],
     ['json', { outputFile: 'results.json' }],
-    ['junit', { outputFile: 'results.xml' }]
+    ['junit', { outputFile: 'results.xml' }],
+    ['allure-playwright', { outputFolder: 'allure-results' }]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
