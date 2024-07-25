@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 2
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -38,7 +38,7 @@
       [
         "/home/gogi999/QA/PlaywrightWithJS/node_modules/allure-playwright/dist/cjs/index.js",
         {
-          "outputFolder": "my-allure-results"
+          "outputFolder": "allure-results"
         }
       ]
     ],
@@ -99,13 +99,13 @@
   },
   "suites": [
     {
-      "title": "Reporters.spec.js",
-      "file": "Reporters.spec.js",
+      "title": "RetryTest.spec.js",
+      "file": "RetryTest.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Test1",
+          "title": "test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -119,17 +119,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4702,
+                  "duration": 18104,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "Nexus 6\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-24T10:08:06.923Z",
+                  "startTime": "2024-07-25T08:54:10.742Z",
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test1-chromium/trace.zip"
+                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/RetryTest-test-chromium/trace.zip"
                     }
                   ]
                 }
@@ -137,323 +141,19 @@
               "status": "expected"
             }
           ],
-          "id": "399bcd1299f62012f68d-95434237692cbd161c3b",
-          "file": "Reporters.spec.js",
-          "line": 4,
-          "column": 1
-        },
-        {
-          "title": "Test2",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 6007,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-07-24T10:08:11.956Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test2-chromium/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "399bcd1299f62012f68d-064de90a5d2bda0e3e44",
-          "file": "Reporters.spec.js",
-          "line": 11,
-          "column": 1
-        },
-        {
-          "title": "Test3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 5129,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-07-24T10:08:18.029Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test3-chromium/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "399bcd1299f62012f68d-6ef640acef5b31d772c8",
-          "file": "Reporters.spec.js",
-          "line": 18,
-          "column": 1
-        },
-        {
-          "title": "Test1",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 6823,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-07-24T10:08:06.908Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test1-firefox/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "399bcd1299f62012f68d-d9e3ae9db2d661dde063",
-          "file": "Reporters.spec.js",
-          "line": 4,
-          "column": 1
-        },
-        {
-          "title": "Test2",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 6052,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-07-24T10:08:14.654Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test2-firefox/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "399bcd1299f62012f68d-bb02084a571b6c75d188",
-          "file": "Reporters.spec.js",
-          "line": 11,
-          "column": 1
-        },
-        {
-          "title": "Test3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 5085,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-07-24T10:08:20.907Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test3-firefox/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "399bcd1299f62012f68d-2c6a174eeade4eec8a38",
-          "file": "Reporters.spec.js",
-          "line": 18,
-          "column": 1
-        },
-        {
-          "title": "Test1",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 5968,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-07-24T10:08:23.790Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test1-webkit/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "399bcd1299f62012f68d-9e413f90102ade627908",
-          "file": "Reporters.spec.js",
-          "line": 4,
-          "column": 1
-        },
-        {
-          "title": "Test2",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 7067,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-07-24T10:08:30.280Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test2-webkit/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "399bcd1299f62012f68d-7377bf78bdec208b6fae",
-          "file": "Reporters.spec.js",
-          "line": 11,
-          "column": 1
-        },
-        {
-          "title": "Test3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 6332,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-07-24T10:08:37.422Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "/home/gogi999/QA/PlaywrightWithJS/test-results/Reporters-Test3-webkit/trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "399bcd1299f62012f68d-c6b856f608996e5115f6",
-          "file": "Reporters.spec.js",
-          "line": 18,
-          "column": 1
+          "id": "2c48ef0e88569fb8b334-a3619fc5a0cd52aa995a",
+          "file": "RetryTest.spec.js",
+          "line": 6,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-07-24T10:08:06.485Z",
-    "duration": 37459.169,
-    "expected": 9,
+    "startTime": "2024-07-25T08:54:10.130Z",
+    "duration": 20691.731,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

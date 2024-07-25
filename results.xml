@@ -1,69 +1,10 @@
-<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="37.459169">
-<testsuite name="Reporters.spec.js" timestamp="2024-07-24T10:08:06.512Z" hostname="chromium" tests="3" failures="0" skipped="0" time="15.838" errors="0">
-<testcase name="Test1" classname="Reporters.spec.js" time="4.702">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="20.691731">
+<testsuite name="RetryTest.spec.js" timestamp="2024-07-25T08:54:10.230Z" hostname="chromium" tests="1" failures="0" skipped="0" time="18.104" errors="0">
+<testcase name="test" classname="RetryTest.spec.js" time="18.104">
 <system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test1-chromium/trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Test2" classname="Reporters.spec.js" time="6.007">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test2-chromium/trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Test3" classname="Reporters.spec.js" time="5.129">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test3-chromium/trace.zip]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="Reporters.spec.js" timestamp="2024-07-24T10:08:06.512Z" hostname="firefox" tests="3" failures="0" skipped="0" time="17.96" errors="0">
-<testcase name="Test1" classname="Reporters.spec.js" time="6.823">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test1-firefox/trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Test2" classname="Reporters.spec.js" time="6.052">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test2-firefox/trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Test3" classname="Reporters.spec.js" time="5.085">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test3-firefox/trace.zip]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="Reporters.spec.js" timestamp="2024-07-24T10:08:06.512Z" hostname="webkit" tests="3" failures="0" skipped="0" time="19.367" errors="0">
-<testcase name="Test1" classname="Reporters.spec.js" time="5.968">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test1-webkit/trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Test2" classname="Reporters.spec.js" time="7.067">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test2-webkit/trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Test3" classname="Reporters.spec.js" time="6.332">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results/Reporters-Test3-webkit/trace.zip]]
+<![CDATA[Nexus 6
+
+[[ATTACHMENT|test-results/RetryTest-test-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
